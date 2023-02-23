@@ -1,0 +1,86 @@
+  /* ---------------  task 1  --------------- */
+.table td, .table th{
+    border: 1px solid #6395ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.table{
+    width: 500px;
+    border-collapse: collapse;
+}
+.table thead{
+    background-color: #dae1f8;
+}
+.table tfoot{
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+div{
+    margin: 40px;
+}
+
+  /* ---------------  task 2  --------------- */
+
+.schedule, .schedule td, .schedule th, .schedule tr{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+.schedule, .schedule thead tr  {
+    border: 3px black solid;
+}
+.metainfoleft{
+background-color: #c2d4f1;
+border: 3px black solid;
+}
+.metainfoleft tr{
+text-align: center;
+font-weight: bold;
+}
+.schedule thead tr:last-of-type, 
+.schedule thead tr:first-of-type th:nth-last-child(-n+3)
+{
+    background-color:#75ab92;
+
+}
+.room{
+    font-weight: 100;
+}
+.day{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+}
+.schedule{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+}
+.subject{
+    font-weight: 100;
+    text-align: left;
+}
+.schedule tbody td:last-child, .schedule thead th:last-child{
+    border-left: dashed 2px black;
+}
+.schedule tbody tr:nth-child(odd){
+    border-bottom: black 2px dotted;
+}
+.schedule thead tr:first-of-type th:nth-last-of-type(-n+2){
+    width: 44px;
+    font-weight: 100;
+}
+.schedule thead th:nth-last-of-type(3),
+.schedule thead tr:last-of-type th:nth-last-of-type(3){
+    width: 250px;
+}
+.schedule thead th:first-of-type{
+    width: 50px;
+}
+.schedule thead th:nth-child(2),
+.schedule thead th:nth-child(3){
+    width: 25px;
+}

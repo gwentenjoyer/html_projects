@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Таблиці</title>
+</head>
+<body>
+    <div class="task_one">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Ім'я</th>
+                    <th>E-mail</th>
+                    <th>Стать</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Володимир Коваль</td>
+                    <td>volodymyr1991@urk.net</td>
+                    <td>Ч</td>
+                    <td>14.02.1991</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Олександра Швець</td>
+                    <td>shvetsmail@gmail.com</td>
+                    <td>Ж</td>
+                    <td>23.12.2002</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Олексій Прядко</td>
+                    <td>jollygolf@gmail.com</td>
+                    <td>Ч</td>
+                    <td>05.05.1996</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Всього: 3</td>
+                </tr>
+            </tfoot>
+                
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="task_two">
+        <table class="schedule">
+            <caption>Розклад занять</caption>
+            <colgroup >
+                <col class="metainfoleft" span="3">
+                <col class="metainfoup" span="3" style="font-weight: bold;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2">День тижня</th>
+                    <th rowspan="2">Па-ра</th>
+                    <th rowspan="2">Тиж-день</th>
+                    <th>Погорілець А.В.</th>
+                    <th rowspan="2">Ауд. (І)</th>
+                    <th rowspan="2">Ауд. (ІІ)</th>
+                </tr>
+                <tr>
+                    <th>КН-321</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="10" class="day">П'ятниця</td>
+                    <td rowspan="2">3</td>
+                    <td>I</td>
+                    <td class="subject">Дискретна матем. Фігурська</td>
+                    <td class="room">303в</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                    <td class="subject">Теорія ймовірностей Погорілець</td>
+                    <td class="room">309в</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">4</td>
+                    <td>I</td>
+                    <td rowspan="2" class="subject">Фізичне виховання<br>Когут</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td><span>II</span></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">5</td>
+                    <td style="text-align: center;">I</td>
+                    <td class="subject">Комп.схемотехніка Пиж</td>
+                    <td class="room">316</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                    <td class="subject">Чисельні методи Радчик</td>
+                    <td class="room">315</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6</td>
+                    <td>I</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">7</td>
+                    <td>I</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td>II</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+</body>
+</html>
