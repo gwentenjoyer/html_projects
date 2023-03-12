@@ -1,0 +1,30 @@
+.component{
+    background-color:#dfdede;
+    width: 240px;
+    border: 1px #000 solid;
+    border-radius: 8px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    flex-direction: column;
+    /* padding: 10px 5px; */
+    /* padding: 7px 0px; */
+}
+.component > div{
+    margin: 7px 0px;
+}
+.component-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.component-info{
+    text-align: center;
+    line-height: 15px;
+}
+.component-photo{
+    width: 20%;
+}
