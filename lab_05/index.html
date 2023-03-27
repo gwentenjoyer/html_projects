@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic harum alias incidunt provident, in facere id dignissimos itaque esse, cupiditate, illum veritatis. Beatae perspiciatis enim ullam officia omnis repellendus?
+            Error excepturi minima ut adipisci repudiandae vitae aspernatur expedita, dignissimos veniam ratione ea ad reiciendis tenetur id eligendi laudantium dolorum, non eveniet iure perferendis molestiae! Est eveniet qui dicta ex?
+            Velit obcaecati provident doloremque ullam, earum culpa! Consectetur, quas modi? Sequi mollitia error recusandae expedita repellat odio tempore quasi nisi perspiciatis, tenetur exercitationem alias. Explicabo non assumenda amet est vel?
+            At, sit accusantium hic fugiat minima veniam nesciunt ea expedita ullam inventore ut nobis iure. Corporis cumque tempore illo nihil possimus, illum molestiae et voluptates odit mollitia reiciendis temporibus laboriosam.
+            Ab fugiat, deleniti velit aliquid ipsa totam facilis explicabo, dicta dignissimos, harum distinctio autem vel ex id? Facere, consequatur. Quas nulla aspernatur recusandae suscipit eaque nemo, quis consequuntur consequatur ipsam.
+            </p>
+    </div>
+    <div class="modal">
+        <div class="overlay">
+            <div class="modal-window">
+                <div class="modal-header">
+                    <div class="modal-header-text">
+                        Add a smartphone
+                    </div>
+                    <div class="cross-box">
+                        <div class="cross">&times</div> 
+                    </div>
+                </div>
+                <hr class="hr-header">
+                <div class="modal-body">
+                    <form class="modal-form" action="/handler" method="post">
+                        <label for="brand">Brand:</label>
+                        <input type="text" id="brand" name="brand" placeholder="Input brand name here...">
+                        <br>
+                        <label for="model">Model:</label>
+                        <input type="text" id="model" name="model" placeholder="Input model here...">
+                        <br>
+                        <label for="diagonal">Diagonal:</label>
+                        <input type="text" id="diagonal" name="diagonal" placeholder="Input diagonal here...">
+                        <br>
+                        <label for="cpu">CPU: </label>
+                        <input type="text" id="cpu" name="cpu" placeholder="Input CPU here...">
+                        <br>
+                        <label for="ram">RAM:</label>
+                        <input type="text" id="ram" name="ram" placeholder="Input RAM here...">
+                        <br>
+                        <label for="internal_memory">Internal memory:</label>
+                        <input type="text" id="internal_memory" name="internal_memory" placeholder="Input internal memory capacity here...">
+                        <br>
+                        <!-- <label for="model">photo-mimi</label> -->
+                        <input type="image" id="photo_thumbnail" name="photo_thumbnail" src="" alt="img_here" height="150px" width="150px">
+                        <br>
+                        <label for="image_selector">Select an image file:</label>
+                        <input type="file" id="image_selector" name="model">
+                        
+                        <!-- <hr class="hr-footer"> -->
+                    </form>
+                </div>
+                <hr class="hr-footer"> 
+                <div class="modal-footer">
+                    <div class="modal-footer-button">
+                        <input type="submit" value="Confirm" form="modal-form" class="component-button-edit">
+                    </div>
+                    <!-- <div class="component-button-edit">Confirm</div> -->
+                    <!-- <button class="component-button-edit">Confirm</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
