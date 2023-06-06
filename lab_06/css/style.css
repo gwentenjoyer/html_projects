@@ -1,0 +1,67 @@
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+h2{
+    border: 3px solid slateblue;
+    background-color: lightslategray;
+    padding: 10px;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+.img{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px 10px 5px 0px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left-image{
+    float: left;
+}
+.right-image{
+    float: right;
+}
+
+/* Task 2 */
+
+header, nav, main, aside, footer {
+    text-align: center;
+    line-height: 300%;
+    font-size: 15pt;
+    font-weight: bold;
+    width: 50%;
+    color: white;
+}
+header{
+    background-color: lightcoral;
+    float: left;
+    color: darkred;
+    width: 100%;
+}
+nav{
+    background-color: lightblue;
+    color: darkblue;
+    width: 100%;
+}
+main{
+    background-color: lightgreen;
+    float: left;
+    color: darkgreen;
+}
+aside{
+    background-color:rgba(255, 255, 0, 0.5);   
+    float: right;
+    color: darkorange;
+}
+footer{
+    background-color:violet;
+    clear: right;
+    color: darkmagenta;
+    width: 100%;
+}
