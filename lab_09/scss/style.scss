@@ -1,0 +1,29 @@
+$color: #587999;
+$textcenter: center;
+
+
+.variables{
+  background-color: $color;
+}
+
+.nesting{
+  border: solid black;
+  p{
+    text-align: $textcenter;
+  }
+}
+
+@mixin text{
+  text-align: $textcenter;
+  color: blue
+}
+
+.impurities{
+  background-color: darkgrey;
+  @include text;
+}
+
+.inheritance{
+  @extend .variables;
+  height: 100px;
+}

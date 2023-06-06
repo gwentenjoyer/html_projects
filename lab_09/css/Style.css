@@ -1,0 +1,20 @@
+.variables, .inheritance {
+  background-color: #587999;
+}
+
+.nesting {
+  border: solid black;
+}
+.nesting p {
+  text-align: center;
+}
+
+.impurities {
+  background-color: darkgrey;
+  text-align: center;
+  color: blue;
+}
+
+.inheritance {
+  height: 100px;
+}
