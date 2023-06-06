@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.wrapper {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.footer {
+    flex: 0 0 auto;
+    background-color: DodgerBlue;
+    margin: 15px;
+    line-height: 70px;
+}
+
+.header{
+    margin: 15px 15px -15px 15px;
+    background-color: DodgerBlue;
+    line-height: 70px;
+}
+
+aside{
+    width: 14%;
+}
+
+aside>div,main>div{
+    background-color: dodgerblue;
+    margin: 15px 0;
+    line-height: 70px;
+}
+
+main{
+    width: 40%;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.center{
+    margin: 15px;
+    width: auto;
+}
